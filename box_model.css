@@ -1,0 +1,50 @@
+
+/* content area =150px wide x 50px high */
+/* OVERALL area 172px wide x 72px high */
+/* 172px wide overall area- 150px wide content area = 
+22px extra/ 2= 11px on each side width for margin&padding of content area.*/
+/* Same calculation with height. 72px overall height - 50px content area =
+22px extra/ 2 = 11px on each side height for margin& padding of content area */ 
+/* This is about 10px of padding all around each box. */
+
+/* made a class selector because we KNEW we needed multiple styles */
+.box {
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+#box-red {
+	background-color: red;
+}
+
+#box-orange {
+	background-color: orange;
+	margin-left: 30px;
+}
+
+#box-yellow {
+	background-color: yellow;
+	margin-left: 60px;
+}
+
+#box-green {
+	background-color: green;
+	margin-left: 90px;
+}
+
+#box-blue {
+	background-color: blue;
+	margin-left: 120px;
+}
+
+#box-violet {
+	background-color: violet;
+
+	margin-left: 150px;
+}
+
